@@ -1,0 +1,101 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/contactus.jpg);
+    background-size: 1400px 900px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 75px 100px 25px;
+    text-align: center;
+    color: white;
+}
+
+#division {
+    margin-left: 200px;
+    padding-top: 50px;
+    width: 50%;
+}
+
+#textdivision {
+    border-left: solid thin black;
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 50%;
+    text-align: center;
+    padding-left: 35px;
+}
+
+#backcolor {
+    background-color: rgba(40, 143, 180, 0.8);
+}
+
+.multicolumns {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.backgroundpicForm {
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 40px;
+}
+
+.bgdimForm {
+    padding: 2cm;
+    padding-left: 10cm;
+    height: auto;
+    background-color: rgb(207, 234, 246);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.buttonbox {
+    border: solid thin #d4bfb3;
+    font-size: 12px;
+    line-height: 36px;
+    color: #212129!important;
+    padding: 0;
+    margin: 30px 0 0 0;
+    width: 100%;
+    max-width: 185px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.formmm {
+    height: 35px;
+    margin-bottom: 12px;
+    font-size: 1em;
+    color: hsl(217, 15%, 23%);
+    border: none!important;
+    outline: none;
+    border-bottom: solid thin hsl(240, 11%, 15%)!important;
+    width: 800%;
+    max-width: 150px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: transparent;
+    margin: 0 0 15px 0;
+}

@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/pic1.jpg);
+    background-size: 1400px 900px;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirmationMessage {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}

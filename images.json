@@ -1,0 +1,31 @@
+[{
+        "name": "Dr. Harshil Patel",
+        "designation": "Consultant",
+        "specialty": "Child care"
+    },
+    {
+        "name": "Dr. Sahil Achhava",
+        "designation": "MBBS",
+        "specialty": "Neurology"
+    },
+    {
+        "name": "Dr. Dhruv Shah",
+        "designation": "MBBS, MS, DNB",
+        "specialty": "General Surgery"
+    },
+    {
+        "name": "Dr. Vijeta Kumari",
+        "designation": "MBBS",
+        "specialty": "Health Checkup"
+    },
+    {
+        "name": "Dr. Yagnesh Patel",
+        "designation": "MD",
+        "specialty": "Dermatology"
+    },
+    {
+        "name": "Dr. Namita Bhoj",
+        "designation": "MBBS, MS, MD",
+        "specialty": "Eye Specialist"
+    }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<reviews>
+    <review>
+        <name>Ameila</name>
+        <tagLine>Good Work</tagLine>
+        <comment>I am new patient and very impressed with both the staff and doctor.</comment>
+    </review>
+    <review>
+        <name>John</name>
+        <tagLine>Good</tagLine>
+        <comment>My visit with Dr.Nazario is always a very pleasent.</comment>
+    </review>
+    <review>
+        <name>James</name>
+        <tagLine>Good services</tagLine>
+        <comment>The doctures here were are very concerned about patients.</comment>
+    </review>
+    <review>
+        <name>Jordon</name>
+        <tagLine>Worth it</tagLine>
+        <comment>Even thought my wait time was long but it would be easy if i book a appointment
+            online. Good work</comment>
+    </review>
+</reviews>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Management System:Booking</title>
+    <link rel="stylesheet" href="./css/Booking.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="Booking.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME </a></li>
+            <li><a href="AboutUs.html">ABOUTUS</a></li>
+            <li><a href="Booking.html">APPOINTMENT BOOKING</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="ContactUs.html">CONTACT US</a></li>
+            <li><a href="FAQ.html">FAQ's</a></li>
+            <li><a href="Reviews.html">REVIEWS</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Appointment Booking</h2>
+        <form id="appointmentForm">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" name="patientName" required>
+
+            <label for="appointmentDate">Appointment Date:</label>
+            <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+            <label for="appointmentTime">Appointment Time:</label>
+            <input type="time" id="appointmentTime" name="appointmentTime" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+        <div id="confirmationMessage"></div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Hospital Management System. All rights reserved.</p>
+
+        <div class="social-links">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
